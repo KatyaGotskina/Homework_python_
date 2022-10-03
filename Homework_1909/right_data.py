@@ -1,5 +1,5 @@
-def data(day, month, year):
-
+def data(our_data):
+    day, month, year = list(map(int, our_data.split('.')))
     days_in_month = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 
     if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:

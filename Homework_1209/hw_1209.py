@@ -11,6 +11,6 @@ def str_procent(slova):
         if hiigh / len(i) > 0.5:
             count1 += 1
 
-    print(round(count1 / len(str_1) * 100, 2))
+    return round(count1 / len(str_1) * 100, 2)
 
 
