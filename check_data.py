@@ -7,4 +7,3 @@ while True:
 
     except Exception as err:
         print('Ваша ошибка: ', err)
- 
